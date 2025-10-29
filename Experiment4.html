@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glassmorph Form</title>
+  <link rel="stylesheet" href="Exp4style.css" />
+</head>
+
+<body>
+    <div class="glass-card">
+      <h2>Hotel Room Booking Form</h2>
+
+      <form>
+        <input type="text" placeholder="Full Name" />
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Phone Number" />
+        <input type="date" placeholder="Check-in Date" />
+        <input type="date" placeholder="Check-out Date" />
+
+        <select required>
+          <option value="" disabled selected>Select Room Type</option>
+          <option value="single">Single Room</option>
+          <option value="double">Double Room</option>
+          <option value="deluxe">Deluxe Room</option>
+          <option value="suite">Suite</option>
+          <option value="family">Family Room</option>
+        </select>
+
+        <input type="text" placeholder="Number of Guests" />
+        <textarea rows="4" placeholder="Special Requests"></textarea>
+
+        <div class="button-group">
+          <button type="submit">Book Now</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    
+    </div>
+</body>
+</html>
