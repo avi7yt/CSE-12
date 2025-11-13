@@ -5,3 +5,15 @@ body
     height: 100vh;
     background-color: #d9d7d7;
 }
+
+#styleTag
+{
+    color: #351bf8;
+    cursor: pointer;
+}
+
+.href
+{
+    color:#351bf8;
+    cursor: pointer;
+}
