@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to grid</title>
+    <link rel="stylesheet" href="/CSS/grid /style.css">
+
+    <style>
+        .container
+        {
+            width: 70%;
+            height: 700px;
+            background-color: #f6cd8282;
+            border: 1px solid #f6cd82;
+            border-radius: 8px;
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: repeat(6,1fr);
+            gap: 10px;
+        }
+        .item 
+        {
+            padding: 20px;
+            border: 1px solid black;
+        }
+        .item1 
+        {
+            grid-column: 1/7;
+            grid-row: 1/2;
+        }
+        .item2
+        {
+            grid-column: 1/5;
+            grid-row: 2/4;
+        }
+        .item3
+        {
+            grid-column: 5/7;
+            grid-row: 2/4;
+        }
+        .item4
+        {
+            grid-column: 1/7;
+            grid-row: 4/6;
+        }
+        .item5
+        {
+            grid-column: 1/7;
+            grid-row: 6/7;
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="item item1">Header</div>
+            <div class="item item2">Aside1</div>
+            <div class="item item3">Aside2</div>
+            <div class="item item4">Article</div>
+            <div class="item item5">footer1</div>
+        </div>
+</body>
+</html>

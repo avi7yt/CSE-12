@@ -1,0 +1,110 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #cccaca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+h1
+{
+    background-color: #000000;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    color: #ffffff;
+    text-align: center;
+}
+
+h3
+{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+p
+{
+    font-size: 1.5rem;
+}
+
+button
+{
+    padding: 15px 20px;
+    background-color: rgb(72, 72, 248);
+    color:#ffffff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: #2121f5;
+}
+
+h4
+{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color:blue;
+}
+strike
+{
+    color:grey;
+    margin-left: 10px;
+}
+.container
+{
+    width: 500px;
+    height: 600px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .productImage
+{
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+}
+
+.container .productImage img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.container .details
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    gap: 10px;
+}
