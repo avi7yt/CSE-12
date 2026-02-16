@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>School Result Table</title>
+<style>
+	*{
+		padding:0;
+		margin:0;
+		box-sizing:border-box;
+	}
+	
+	h1{
+		font-size:30px
+		font-weight:500;
+		letter-spacing:0.5px
+		color:#000000;
+	}
+
+	table{
+		background-color:1c1c1c;
+	}
+
+	tr,th,td{
+		border:1px solid black;
+		cell-spacing:1px;
+		color:white;
+		
+	}
+
+</style>
+</head>
+<body>
+	<h1>School Result Table</h1>
+	<table>
+			<caption>Student marks</caption>
+			<thead>
+				<tr>
+					<th>Roll No.</th>
+					<th>Name</th>
+					<th>Math</th>
+					<th>Physics</th>
+					<th>Chemistry</th>
+					<th>Total</th>
+			<thead>
+			
+			<tbody>
+					<tr>
+						<td>1</td>
+						<td>Avi</td>
+						<td>82</td>
+						<td>85</td>
+						<td>70</td>
+						<td>237</td>
+					</tr>
+					
+					<tr>
+						<td>2</td>
+						<td>Rohit</td>
+						<td>78</td>
+						<td>82</td>
+						<td>63</td>
+						<td>233</td>
+					</tr>
+
+					<tr>
+						<td>3</td>
+						<td>Rahul</td>
+						<td>72</td>
+						<td>85</td>
+						<td>55</td>
+						<td>212</td>
+					</tr>
+
+					<tr>
+						<td>4</td>
+						<td>Ankit</td>
+						<td>46</td>
+						<td>50</td>
+						<td>56</td>
+						<td>152</td>
+					</tr>
+			<tbody>
+	</table>
+</body>
+</html>
